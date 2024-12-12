@@ -22,7 +22,9 @@ class AccountMove(models.Model):
     # For invoice form and print total presentation.
     # Extending _get_tax_totals() would also work for invoices, however not for sales
     # orders. Therefore _compute_tax_totals_json() is extended for consistency reason.
-    def _compute_tax_totals_json(self):
+    def _compute_tax_totals(self):
         if self.env.company.need_tax_round_down:
             self = self.with_context(rounding_method="DOWN")
-        return super()._compute_tax_totals_json()
+        return super()._compute_tax_totals()
+
+    # method name changed in v16.0

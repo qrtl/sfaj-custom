@@ -19,6 +19,7 @@ class AccountTax(models.Model):
         is_refund=False,
         handle_price_include=True,
         include_caba_tags=False,
+        fixed_multiplicator=1, # Added from v16.0
     ):
         if not self:
             company = self.env.company
@@ -53,4 +54,5 @@ class AccountTax(models.Model):
             is_refund=is_refund,
             handle_price_include=handle_price_include,
             include_caba_tags=include_caba_tags,
+            fixed_multiplicator=fixed_multiplicator, # Added from v16.0
         )
