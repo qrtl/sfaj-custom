@@ -10,6 +10,7 @@
     "depends": ["account"],
     "data": [
         "reports/account_report.xml",
+        "views/report_delivery_slip.xml",
     ],
     "installable": True,
 }
