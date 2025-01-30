@@ -55,17 +55,29 @@
                 <t t-else="">Cancelled Invoice</t>
             </span>
         </xpath>
-        <xpath expr="//strong[contains(text(), 'Invoice Date:')]" position="attributes">
+       <xpath expr="//div[@name='invoice_date']" position="attributes">
             <attribute name="style">display: none;</attribute>
         </xpath>
 
-        <xpath expr="//strong[contains(text(), 'Invoice Date:')]" position="after">
-            <t t-if="o.move_type == 'out_invoice'">
-                <strong>
-                    <t t-if="is_delivery_slip">Delivery Date:</t>
-                    <t t-else="">Invoice Date:</t>
-                </strong>
-            </t>
+        <xpath expr="//div[@name='due_date']" position="after">
+            <div
+                class="col-auto col-3 mw-100 mb-2"
+                t-if="o.invoice_date"
+                name="invoice_date"
+            >
+                <t t-if="o.move_type == 'out_invoice'">
+                    <strong>
+                        <t t-if="is_delivery_slip">Delivery Date:</t>
+                        <t t-else="">Invoice Date:</t>
+                    </strong>
+                </t>
+                <t t-elif="o.move_type == 'out_refund'"><strong
+                    >Credit Note Date:</strong></t>
+                <t t-elif="o.move_type == 'out_receipt'"><strong
+                    >Receipt Date:</strong></t>
+                <t t-else=""><strong>Date:</strong></t>
+                <p class="m-0" t-field="o.invoice_date" />
+            </div>
         </xpath>
         <xpath expr="//div[@name='due_date']" position="attributes">
             <attribute name="style">display: none;</attribute>
