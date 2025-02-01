@@ -1,0 +1,35 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_move_contact_attribute
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-01 04:21+0000\n"
+"PO-Revision-Date: 2025-02-01 04:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_move_contact_attribute
+#: model:ir.model.fields,field_description:account_move_contact_attribute.field_account_bank_statement_line__contact_person
+#: model:ir.model.fields,field_description:account_move_contact_attribute.field_account_move__contact_person
+#: model:ir.model.fields,field_description:account_move_contact_attribute.field_account_payment__contact_person
+msgid "Contact Person"
+msgstr "顧客担当者"
+
+#. module: account_move_contact_attribute
+#: model:ir.model,name:account_move_contact_attribute.model_account_move
+msgid "Journal Entry"
+msgstr "仕訳"
+
+#. module: account_move_contact_attribute
+#: model:ir.model.fields,field_description:account_move_contact_attribute.field_account_bank_statement_line__site_name
+#: model:ir.model.fields,field_description:account_move_contact_attribute.field_account_move__site_name
+#: model:ir.model.fields,field_description:account_move_contact_attribute.field_account_payment__site_name
+msgid "Site Name"
+msgstr "現場名"
