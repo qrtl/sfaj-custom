@@ -1,0 +1,21 @@
+<odoo>
+    <template
+        id="bill_line_section_layout_contact_attribute"
+        inherit_id="l10n_jp_summary_invoice.bill_line_section_layout"
+    >
+        <xpath expr="//tr[@name='invoice_narration']" position="before">
+            <tr t-if="invoice.contact_person or invoice.site_name">
+                <td t-att-colspan="line_columns">
+                    <div t-if="invoice.contact_person">
+                        <strong>Contact Person: </strong>
+                        <span t-field="invoice.contact_person" />
+                    </div>
+                    <div t-if="invoice.site_name">
+                        <strong>Site Name: </strong>
+                        <span t-field="invoice.site_name" />
+                    </div>
+                </td>
+            </tr>
+        </xpath>
+    </template>
+</odoo>
