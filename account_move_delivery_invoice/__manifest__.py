@@ -1,7 +1,7 @@
 # Copyright 2025 Quartile Limited
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 {
-    "name": "Invoice Delivery Slip",
+    "name": "Account Move Delivery Invoice",
     "category": "Invoice",
     "version": "16.0.1.0.0",
     "author": "Quartile",
@@ -10,7 +10,7 @@
     "depends": ["account"],
     "data": [
         "reports/account_report.xml",
-        "views/report_delivery_slip.xml",
+        "views/delivery_invoice.xml",
     ],
     "installable": True,
 }
