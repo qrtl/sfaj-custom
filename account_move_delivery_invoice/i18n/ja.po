@@ -1,0 +1,140 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_move_delivery_invoice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-07 07:25+0000\n"
+"PO-Revision-Date: 2025-02-07 07:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_move_delivery_invoice
+#: model:ir.actions.report,print_report_name:account_move_delivery_invoice.delivery_slip
+msgid "(object._get_report_base_filename())"
+msgstr ""
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Amount</span>\n"
+"                                    <span groups=\"account.group_show_line_subtotals_tax_included\">Total Price</span>"
+msgstr ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">金額</span>\n"
+"                                    <span groups=\"account.group_show_line_subtotals_tax_included\">合計</span>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<span>Description</span>"
+msgstr "<span>説明</span>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<span>Disc.%</span>"
+msgstr "<span>値引%</span>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<span>Quantity</span>"
+msgstr "<span>数量</span>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<span>Taxes</span>"
+msgstr "<span>税</span>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<span>Unit Price</span>"
+msgstr "単価"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">小計</strong>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<strong>Customer Code:</strong>"
+msgstr "<strong>顧客コード:</strong>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<strong>Date:</strong>"
+msgstr "<strong>日付:</strong>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<strong>Receipt Date:</strong>"
+msgstr "<strong>受領日:</strong>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<strong>Reference:</strong>"
+msgstr "<strong>参照:</strong>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<strong>Return Date:</strong>"
+msgstr "<strong>返品日:</strong>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<strong>Sales Date:</strong>"
+msgstr "<strong>売上日:</strong>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<strong>Shipping Address:</strong>"
+msgstr "<strong>配送先:</strong>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<strong>Source:</strong>"
+msgstr "<strong>参照元:</strong>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "Cancelled Delivery"
+msgstr "取消納品書"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "Delivery"
+msgstr "納品書"
+
+#. module: account_move_delivery_invoice
+#: model:ir.actions.report,name:account_move_delivery_invoice.delivery_slip
+msgid "Delivery Slip"
+msgstr "納品書"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "Draft Delivery"
+msgstr "ドラフト納品書"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "Receipt"
+msgstr "受領書"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "Return Note"
+msgstr "返品書"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "Tax 15%"
+msgstr ""
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "Tax ID"
+msgstr "登録番号"
