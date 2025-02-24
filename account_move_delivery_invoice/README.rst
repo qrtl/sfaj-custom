@@ -22,7 +22,8 @@ Account Move Delivery Invoice
 
 |badge1| |badge2| |badge3|
 
-This module adds an action to print the invoice as a delivery slip.
+This module adds an action to print a delivery invoice from Odoo’s
+customer invoices.
 
 **Table of contents**
 
@@ -46,6 +47,14 @@ Authors
 -------
 
 * Quartile
+
+Contributors
+------------
+
+-  `Quartile <https://www.quartile.co>`__:
+
+   -  Aung Ko Ko Lin
+   -  Tatsuki Kanda
 
 Maintainers
 -----------

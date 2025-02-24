@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-    <record id="delivery_slip" model="ir.actions.report">
-        <field name="name">Delivery Slip</field>
+    <record id="delivery_invoices" model="ir.actions.report">
+        <field name="name">Delivery Invoices</field>
         <field name="model">account.move</field>
         <field name="report_type">qweb-pdf</field>
         <field
             name="report_name"
-        >account_move_delivery_invoice.report_invoice_delivery_slip</field>
+        >account_move_delivery_invoice.report_delivery_invoice</field>
         <field
             name="report_file"
-        >account_move_delivery_invoice.report_invoice_delivery_slip</field>
+        >account_move_delivery_invoice.report_delivery_invoice</field>
         <field
             name="print_report_name"
-        >'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)</field>
+        >'Delivery Invoice - %s - %s' % (object.partner_id.name or '', object.name)</field>
         <field name="binding_model_id" ref="account.model_account_move" />
         <field name="binding_type">report</field>
         <field

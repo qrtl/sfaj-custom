@@ -10,7 +10,7 @@
     "depends": ["account"],
     "data": [
         "reports/account_report.xml",
-        "views/delivery_invoice.xml",
+        "reports/delivery_invoice_templates.xml",
     ],
     "installable": True,
 }

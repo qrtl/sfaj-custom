@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-07 07:25+0000\n"
-"PO-Revision-Date: 2025-02-07 07:25+0000\n"
+"POT-Creation-Date: 2025-02-24 09:20+0000\n"
+"PO-Revision-Date: 2025-02-24 09:20+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,43 +16,45 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: account_move_delivery_invoice
-#: model:ir.actions.report,print_report_name:account_move_delivery_invoice.delivery_slip
-msgid "(object._get_report_base_filename())"
+#: model:ir.actions.report,print_report_name:account_move_delivery_invoice.delivery_invoices
+msgid ""
+"'Delivery Invoice - %s - %s' % (object.partner_id.name or '', object.name)"
 msgstr ""
+"'納品書 - %s - %s' % (object.partner_id.name or '', object.name)"
 
 #. module: account_move_delivery_invoice
-#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.delivery_invoice_line_thead_tr
 msgid ""
 "<span groups=\"account.group_show_line_subtotals_tax_excluded\">Amount</span>\n"
-"                                    <span groups=\"account.group_show_line_subtotals_tax_included\">Total Price</span>"
+"            <span groups=\"account.group_show_line_subtotals_tax_included\">Total Price</span>"
 msgstr ""
 "<span groups=\"account.group_show_line_subtotals_tax_excluded\">金額</span>\n"
-"                                    <span groups=\"account.group_show_line_subtotals_tax_included\">合計</span>"
+"            <span groups=\"account.group_show_line_subtotals_tax_included\">合計</span>"
 
 #. module: account_move_delivery_invoice
-#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.delivery_invoice_line_thead_tr
 msgid "<span>Description</span>"
 msgstr "<span>説明</span>"
 
 #. module: account_move_delivery_invoice
-#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.delivery_invoice_line_thead_tr
 msgid "<span>Disc.%</span>"
 msgstr "<span>値引%</span>"
 
 #. module: account_move_delivery_invoice
-#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.delivery_invoice_line_thead_tr
 msgid "<span>Quantity</span>"
 msgstr "<span>数量</span>"
 
 #. module: account_move_delivery_invoice
-#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.delivery_invoice_line_thead_tr
 msgid "<span>Taxes</span>"
 msgstr "<span>税</span>"
 
 #. module: account_move_delivery_invoice
-#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.delivery_invoice_line_thead_tr
 msgid "<span>Unit Price</span>"
-msgstr "単価"
+msgstr "<span>単価</span>"
 
 #. module: account_move_delivery_invoice
 #: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
@@ -68,11 +70,6 @@ msgstr "<strong>顧客コード:</strong>"
 #: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
 msgid "<strong>Date:</strong>"
 msgstr "<strong>日付:</strong>"
-
-#. module: account_move_delivery_invoice
-#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
-msgid "<strong>Receipt Date:</strong>"
-msgstr "<strong>受領日:</strong>"
 
 #. module: account_move_delivery_invoice
 #: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
@@ -101,28 +98,33 @@ msgstr "<strong>参照元:</strong>"
 
 #. module: account_move_delivery_invoice
 #: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
-msgid "Cancelled Delivery"
-msgstr "取消納品書"
+msgid "Acceptance Note"
+msgstr "検収書"
 
 #. module: account_move_delivery_invoice
 #: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
-msgid "Delivery"
+msgid "Cancelled"
+msgstr "取消済"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "Delivery Invoice"
 msgstr "納品書"
 
 #. module: account_move_delivery_invoice
-#: model:ir.actions.report,name:account_move_delivery_invoice.delivery_slip
-msgid "Delivery Slip"
+#: model:ir.actions.report,name:account_move_delivery_invoice.delivery_invoices
+msgid "Delivery Invoices"
 msgstr "納品書"
 
 #. module: account_move_delivery_invoice
 #: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
-msgid "Draft Delivery"
-msgstr "ドラフト納品書"
+msgid "Draft"
+msgstr "ドラフト"
 
 #. module: account_move_delivery_invoice
 #: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
-msgid "Receipt"
-msgstr "受領書"
+msgid "Return Invoice"
+msgstr "返品受領書"
 
 #. module: account_move_delivery_invoice
 #: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
@@ -130,11 +132,6 @@ msgid "Return Note"
 msgstr "返品書"
 
 #. module: account_move_delivery_invoice
-#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.delivery_invoice_line_tbody_tr
 msgid "Tax 15%"
 msgstr ""
-
-#. module: account_move_delivery_invoice
-#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
-msgid "Tax ID"
-msgstr "登録番号"
