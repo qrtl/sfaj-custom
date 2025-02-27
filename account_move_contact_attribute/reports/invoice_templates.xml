@@ -2,11 +2,11 @@
 <odoo>
     <template id="report_invoice_document" inherit_id="account.report_invoice_document">
         <xpath expr="//p[@name='payment_communication']" position="before">
-            <div>
+            <div t-if="o.contact_person">
                 <strong>Contact Person:</strong>
                 <span t-esc="o.contact_person" />
             </div>
-            <div>
+            <div t-if="o.site_name">
                 <strong>Site Name:</strong>
                 <span t-esc="o.site_name" />
             </div>

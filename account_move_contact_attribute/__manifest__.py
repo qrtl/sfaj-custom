@@ -9,8 +9,8 @@
     "depends": ["account"],
     "license": "AGPL-3",
     "data": [
+        "reports/invoice_templates.xml",
         "views/account_move_views.xml",
-        "report/report_invoice.xml",
     ],
     "installable": True,
 }
