@@ -6,6 +6,10 @@
         <field name="inherit_id" ref="sale.view_order_form" />
         <field name="arch" type="xml">
             <xpath expr="//group[@name='partner_details']" position="inside">
+                <label for="secondary_partner" />
+                <div class="oe_inline">
+                    <field name="secondary_partner" />
+                </div>
                 <field name="contact_person" />
                 <field name="site_name" />
             </xpath>
@@ -17,6 +21,7 @@
         <field name="inherit_id" ref="sale.view_order_tree" />
         <field name="arch" type="xml">
             <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="secondary_partner" optional="hide" />
                 <field name="contact_person" optional="show" />
                 <field name="site_name" optional="show" />
             </xpath>
@@ -28,6 +33,7 @@
         <field name="inherit_id" ref="sale.view_quotation_tree" />
         <field name="arch" type="xml">
             <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="secondary_partner" optional="hide" />
                 <field name="contact_person" optional="show" />
                 <field name="site_name" optional="show" />
             </xpath>
@@ -39,6 +45,7 @@
         <field name="inherit_id" ref="sale.view_sales_order_filter" />
         <field name="arch" type="xml">
             <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="secondary_partner" />
                 <field name="contact_person" />
                 <field name="site_name" />
             </xpath>
