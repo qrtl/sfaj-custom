@@ -17,13 +17,13 @@ msgstr ""
 
 #. module: account_move_contact_attribute
 #: model_terms:ir.ui.view,arch_db:account_move_contact_attribute.report_invoice_document
-msgid "<strong>Contact Person:</strong>"
-msgstr "<strong>顧客担当者:</strong>"
+msgid "<strong>Contact Person: </strong>"
+msgstr "<strong>ご担当者: </strong>"
 
 #. module: account_move_contact_attribute
 #: model_terms:ir.ui.view,arch_db:account_move_contact_attribute.report_invoice_document
-msgid "<strong>Site Name:</strong>"
-msgstr "<strong>現場名:</strong>"
+msgid "<strong>Site Name: </strong>"
+msgstr "<strong>現場名: </strong>"
 
 #. module: account_move_contact_attribute
 #: model:ir.model.fields,field_description:account_move_contact_attribute.field_account_bank_statement_line__contact_person
