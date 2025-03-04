@@ -24,6 +24,7 @@ Sale Order Contact Attributes
 
 This module adds some contact-related fields to account.move.
 
+-  Secondary Partner
 -  Contact Person
 -  Site Name
 
@@ -54,6 +55,15 @@ Authors
 -------
 
 * Quartile
+
+Contributors
+------------
+
+-  `Quartile <https://www.quartile.co>`__:
+
+   -  Aung Ko Ko Lin
+   -  Tatsuki Kanda
+   -  Yoshi Tashiro
 
 Maintainers
 -----------

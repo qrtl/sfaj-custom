@@ -1,5 +1,6 @@
 This module adds some contact-related fields to account.move.
 
+- Secondary Partner
 - Contact Person
 - Site Name
 

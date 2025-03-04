@@ -6,10 +6,7 @@
         <field name="inherit_id" ref="sale.view_order_form" />
         <field name="arch" type="xml">
             <xpath expr="//group[@name='partner_details']" position="inside">
-                <label for="secondary_partner" />
-                <div class="oe_inline">
-                    <field name="secondary_partner" />
-                </div>
+                <field name="secondary_partner" />
                 <field name="contact_person" />
                 <field name="site_name" />
             </xpath>

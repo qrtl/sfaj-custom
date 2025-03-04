@@ -7,9 +7,7 @@ from odoo import fields, models
 class SaleOrder(models.Model):
     _inherit = "sale.order"
 
-    secondary_partner = fields.Text(
-        tracking=True,
-    )
+    secondary_partner = fields.Char(tracking=True)
     contact_person = fields.Char(tracking=True)
     site_name = fields.Char(tracking=True)
 
