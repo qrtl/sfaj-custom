@@ -1,1 +1,2 @@
-This module shows the address of partner_shipping_id in the sales order.
+Shows the address of partner_shipping_id in the sales order.
+Move client_order_ref in the sales order under partner_id.
