@@ -23,7 +23,7 @@ Sale View Adj
 |badge1| |badge2| |badge3|
 
 Shows the address of partner_shipping_id in the sales order. Move
-client_order_ref in the sales order under partner_id.
+client_order_ref in the sales order under payment_term_id.
 
 **Table of contents**
 
