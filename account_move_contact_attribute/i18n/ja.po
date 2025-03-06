@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-26 03:48+0000\n"
-"PO-Revision-Date: 2025-02-26 03:48+0000\n"
+"POT-Creation-Date: 2025-03-04 08:22+0000\n"
+"PO-Revision-Date: 2025-03-04 08:22+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,13 +17,13 @@ msgstr ""
 
 #. module: account_move_contact_attribute
 #: model_terms:ir.ui.view,arch_db:account_move_contact_attribute.report_invoice_document
-msgid "<strong>Contact Person:</strong>"
-msgstr "<strong>顧客担当者:</strong>"
+msgid "<strong>Contact Person: </strong>"
+msgstr "<strong>ご担当者: </strong>"
 
 #. module: account_move_contact_attribute
 #: model_terms:ir.ui.view,arch_db:account_move_contact_attribute.report_invoice_document
-msgid "<strong>Site Name:</strong>"
-msgstr "<strong>現場名:</strong>"
+msgid "<strong>Site Name: </strong>"
+msgstr "<strong>現場名: </strong>"
 
 #. module: account_move_contact_attribute
 #: model:ir.model.fields,field_description:account_move_contact_attribute.field_account_bank_statement_line__contact_person
@@ -36,6 +36,13 @@ msgstr "顧客担当者"
 #: model:ir.model,name:account_move_contact_attribute.model_account_move
 msgid "Journal Entry"
 msgstr "仕訳"
+
+#. module: account_move_contact_attribute
+#: model:ir.model.fields,field_description:account_move_contact_attribute.field_account_bank_statement_line__secondary_partner
+#: model:ir.model.fields,field_description:account_move_contact_attribute.field_account_move__secondary_partner
+#: model:ir.model.fields,field_description:account_move_contact_attribute.field_account_payment__secondary_partner
+msgid "Secondary Partner"
+msgstr "2次得意先"
 
 #. module: account_move_contact_attribute
 #: model:ir.model.fields,field_description:account_move_contact_attribute.field_account_bank_statement_line__site_name
