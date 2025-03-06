@@ -1,0 +1,1 @@
+This module makes adjustments to sales related views.
