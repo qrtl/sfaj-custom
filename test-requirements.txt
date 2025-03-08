@@ -1,0 +1,3 @@
+git+https://github.com/qrtl/sfaj-oca@16.0#subdirectory=setup/account_billing
+git+https://github.com/qrtl/sfaj-oca@16.0#subdirectory=setup/l10n_jp_summary_invoice
+git+https://github.com/qrtl/sfaj-oca@16.0#subdirectory=setup/report_alternative_layout
