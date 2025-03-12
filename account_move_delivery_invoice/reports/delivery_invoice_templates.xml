@@ -269,6 +269,18 @@
                             </div>
                         </div>
                     </div>
+                    <div t-if="o.secondary_partner">
+                        <strong>Secondary Partner: </strong>
+                        <span t-esc="o.secondary_partner" />
+                    </div>
+                    <div t-if="o.contact_person">
+                        <strong>Contact Person: </strong>
+                        <span t-esc="o.contact_person" />
+                    </div>
+                    <div t-if="o.site_name">
+                        <strong>Site Name: </strong>
+                        <span t-esc="o.site_name" />
+                    </div>
                     <div t-if="not is_html_empty(o.narration)" name="comment">
                         <span t-field="o.narration" />
                     </div>

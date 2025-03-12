@@ -7,7 +7,10 @@
     "author": "Quartile",
     "website": "https://www.quartile.co",
     "license": "AGPL-3",
-    "depends": ["account"],
+    "depends": [
+        "account",
+        "account_move_contact_attribute",  # contact_person, site_name, secondary_partner
+    ],
     "data": [
         "reports/account_report.xml",
         "reports/delivery_invoice_templates.xml",

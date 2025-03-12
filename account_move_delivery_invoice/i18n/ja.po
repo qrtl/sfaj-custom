@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-24 09:20+0000\n"
-"PO-Revision-Date: 2025-02-24 09:20+0000\n"
+"POT-Creation-Date: 2025-03-12 10:18+0000\n"
+"PO-Revision-Date: 2025-03-12 10:18+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,8 +19,7 @@ msgstr ""
 #: model:ir.actions.report,print_report_name:account_move_delivery_invoice.delivery_invoices
 msgid ""
 "'Delivery Invoice - %s - %s' % (object.partner_id.name or '', object.name)"
-msgstr ""
-"'納品書 - %s - %s' % (object.partner_id.name or '', object.name)"
+msgstr "'納品書 - %s - %s' % (object.partner_id.name or '', object.name)"
 
 #. module: account_move_delivery_invoice
 #: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.delivery_invoice_line_thead_tr
@@ -63,6 +62,11 @@ msgstr "<strong class=\"mr16\">小計</strong>"
 
 #. module: account_move_delivery_invoice
 #: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<strong>Contact Person: </strong>"
+msgstr "<strong>ご担当者: </strong>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
 msgid "<strong>Customer Code:</strong>"
 msgstr "<strong>顧客コード:</strong>"
 
@@ -88,8 +92,18 @@ msgstr "<strong>売上日:</strong>"
 
 #. module: account_move_delivery_invoice
 #: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<strong>Secondary Partner: </strong>"
+msgstr "<strong>得意先: </strong>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
 msgid "<strong>Shipping Address:</strong>"
 msgstr "<strong>配送先:</strong>"
+
+#. module: account_move_delivery_invoice
+#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
+msgid "<strong>Site Name: </strong>"
+msgstr "<strong>現場名: </strong>"
 
 #. module: account_move_delivery_invoice
 #: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
