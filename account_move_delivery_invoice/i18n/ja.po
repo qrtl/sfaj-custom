@@ -92,11 +92,6 @@ msgstr "<strong>売上日:</strong>"
 
 #. module: account_move_delivery_invoice
 #: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
-msgid "<strong>Secondary Partner: </strong>"
-msgstr "<strong>得意先: </strong>"
-
-#. module: account_move_delivery_invoice
-#: model_terms:ir.ui.view,arch_db:account_move_delivery_invoice.report_delivery_invoice_document
 msgid "<strong>Shipping Address:</strong>"
 msgstr "<strong>配送先:</strong>"
 

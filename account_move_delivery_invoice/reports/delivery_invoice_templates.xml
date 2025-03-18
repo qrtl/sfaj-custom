@@ -269,10 +269,6 @@
                             </div>
                         </div>
                     </div>
-                    <div t-if="o.secondary_partner">
-                        <strong>Secondary Partner: </strong>
-                        <span t-esc="o.secondary_partner" />
-                    </div>
                     <div t-if="o.contact_person">
                         <strong>Contact Person: </strong>
                         <span t-esc="o.contact_person" />

@@ -9,7 +9,7 @@
     "license": "AGPL-3",
     "depends": [
         "account",
-        "account_move_contact_attribute",  # contact_person, site_name, secondary_partner
+        "account_move_contact_attribute",  # contact_person, site_name
     ],
     "data": [
         "reports/account_report.xml",
