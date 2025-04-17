@@ -7,7 +7,7 @@
     "author": "Quartile",
     "website": "https://www.quartile.co",
     "license": "AGPL-3",
-    "depends": ["product"],
+    "depends": ["account"],
     "data": [
         "views/res_partner_views.xml",
     ],

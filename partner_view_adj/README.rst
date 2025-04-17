@@ -22,8 +22,7 @@ Partner View Adjust
 
 |badge1| |badge2| |badge3|
 
-This module adds the pricelist column before the Salesperson column in
-the partner list view.
+This module makes adjustments to product related views.
 
 **Table of contents**
 

@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
+    <record id="view_res_partner_filter" model="ir.ui.view">
+        <field name="name">partner.view.adj.filter</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_res_partner_filter" />
+        <field name="arch" type="xml">
+            <field name="user_id" position="before">
+                <field name="team_id" />
+                <field name="property_payment_term_id" />
+                <field name="property_product_pricelist" />
+            </field>
+        </field>
+    </record>
     <record id="res_partner_tree_view" model="ir.ui.view">
         <field name="name">res.partner.tree.inherit</field>
         <field name="model">res.partner</field>
         <field name="inherit_id" ref="base.view_partner_tree" />
         <field name="arch" type="xml">
             <field name="user_id" position="before">
+                <field name="team_id" optional="hide" />
+                <field name="property_payment_term_id" optional="hide" />
                 <field name="property_product_pricelist" optional="show" />
             </field>
         </field>
