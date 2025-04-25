@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* stock_security_adjust
+# 	* stock_security_inventory_officer
 #
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: stock_security_adjust
-#: model:res.groups,name:stock_security_adjust.group_stock_officer
+#. module: stock_security_inventory_officer
+#: model:res.groups,name:stock_security_inventory_officer.group_stock_officer
 msgid "Officer"
 msgstr "オフィサー"
