@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template
+        id="report_invoice_sale_partner"
+        inherit_id="account.report_invoice_document"
+    >
+        <xpath expr="//div[@name='invoice_date']" position="before">
+            <t t-set="original_partner" t-value="o.get_original_partner()" />
+            <div
+                class="col-auto col-3 mw-100 mb-2"
+                name="original_partner"
+                t-if="original_partner"
+            >
+                <strong>Original Partner:</strong>
+                <p class="m-0" t-field="original_partner.name" />
+            </div>
+        </xpath>
+    </template>
+</odoo>
